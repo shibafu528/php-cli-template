@@ -1,0 +1,25 @@
+{
+    "name": "shibafu/console-template",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shibafu",
+            "email": "shibafu528@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Lib\\": "lib"
+        }
+    },
+    "require": {
+        "symfony/console": "^4.2",
+        "symfony/dotenv": "^4.2",
+        "monolog/monolog": "^1.24",
+        "league/container": "^3.2",
+        "symfony/finder": "^4.2",
+        "adbario/php-dot-notation": "^2.2"
+    }
+}
